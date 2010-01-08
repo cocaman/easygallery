@@ -1,0 +1,19 @@
+Easy Gallery Readme
+===================
+
+Installation
+============
+1) upload all folders and PHP files to your webserver
+2) make sure that your subfolders of albums/ are chmod 777 (we need to be able to write to these folders)
+3) go to your website (e.g. http://example.com/easygallery/index.php) and click on the link "Do The Admin Job". This will create all your thumbnails and previews of your photos in all subfolders of album/
+
+Customization
+=============
+I) to change the design of your site, you can alter the css file in css/gallery.css.
+II) in config.php you can change the name where your albums are located
+III) in config.php you can change the title of your easy gallery. Simply replace the value of SITENAME
+
+Copyright
+=========
+Please see the included gpl-2.0.txt file for copyrights. The included photographs are licensed under a Creative Commons license.
+Photos (C) by Corsin Camichel, http://www.flickr.com/photos/cocaman/

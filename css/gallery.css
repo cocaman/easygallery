@@ -1,0 +1,96 @@
+body, html {
+	color: #003399;
+	font: 13px 'Lucida Grande', Verdana, sans-serif;
+	background-color:#CCCCCC;
+}
+
+div#logo {
+	display:none;
+}
+
+a {
+	color: #003399;
+ 	text-decoration:none;
+}
+
+a:hover {
+ 	text-decoration:underline;
+}
+
+a.galnav {
+	font-size: 16px;
+	font-weight:bold;
+	color: #003399;
+	text-decoration:none;
+	margin-right: 15px;
+}
+
+a.galnav:hover {
+	color: #003399;
+	text-decoration:underline;
+}
+
+div.galnav {
+	margin-bottom:15px;
+	padding-bottom: 5px;
+	border-bottom:1px solid #003399;
+}
+
+h2 {
+	font-size: 14px;
+	margin-top: 35px;
+}
+
+/*
+div.photo {
+	margin:1px;
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+	padding:2px;
+	float: left;
+}
+*/
+
+div.photo {
+	margin:2px;
+	padding:0px;
+	float: left;
+}
+
+.active {
+	/* none */
+}
+
+.deactive {
+	filter:alpha(opacity=35);
+	-moz-opacity: 0.35;
+	opacity: 0.35;
+}
+
+div.photo:hover {
+	margin: 2px;
+	background-color: #FFFFFF;
+	background-image:url(../images/clickme.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+div.photo:click {
+	heigth: 400px;
+}
+
+div.gallerystyle {
+	/* none */
+}
+
+div#copy {
+	border-top:#FFFFFF 1px solid;
+	margin-top: 10px;
+	font-size: 8px;
+}	
+
+div#copy a {
+	color: #003399;
+	text-decoration:none;
+}
+
